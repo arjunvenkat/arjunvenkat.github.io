@@ -1,0 +1,63 @@
+body {
+  color: #333;
+}
+
+hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid #CCC;
+}
+
+header {
+  padding: 3em;
+  text-align: center;
+}
+
+footer {
+  margin-top: 5em;
+  color: white;
+  background-color: #333;
+  padding: 2em 2em 5em 2em;
+}
+
+h1 {
+  font-size: 3em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+h1, h2, h3 {
+  font-family: 'Nixie One', sans-serif;
+}
+
+h2 {
+  font-size: 3em;
+  margin-bottom: 0.5em;
+}
+
+.header-image {
+  height: 15em;
+  border-radius: 50%;
+  padding: 0.2em;
+  border: 1px solid #CCC;
+  margin-bottom: 2em;
+}
+
+.skills-image,
+.project-image {
+  width: 100%;
+}
+
+.skills-desc p {
+  font-size: 1.3em;
+  font-family: "Open Sans", sans-serif;
+}
+
+
+
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 5em;
+  }
+}
